@@ -1,0 +1,69 @@
+{
+    "name": "Dogesource",
+    "subtitle": "Cool apps me and other people made",
+    "description": "Welcome to Dogesource! A place to get exclusive apps made by me and other cool stuff!",
+    "iconURL": "https://raw.githubusercontent.com/Thatsanothertoast/dogesource/refs/heads/main/Dogestore%20logo.png",
+    "headerURL": "https://wallpapersok.com/images/high/doge-meme-faces-pattern-fqbgpvculd0224cz.jpg",
+    "website": "https://example.com",
+    "tintColor": "#4185A9",
+    "featuredApps": [
+        "com.example.myapp",
+        "com.example.anotherapp"
+    ],
+    "apps": [
+        {
+            "name": "Gorilla tag 2D",
+            "bundleIdentifier": "com.toaster.Gorilla-tag-2D-ios",
+            "developerName": "Toaster, Devobio",
+            "subtitle": "A iOS port of a awesome scratch game",
+            "localizedDescription": "This is an awesome app only available on AltStore.",
+            "iconURL": "https://raw.githubusercontent.com/Thatsanothertoast/dogesource/refs/heads/main/icon_1024.png",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "date": "2025-3-8 06:10 PM",
+                    "size": 20000000,
+                    "downloadURL": "https://drive.google.com/file/d/1GZNfScBDStCxpgtWH6cuc8TkmmMQ99ZL/view?usp=drive_link",
+                    "localizedDescription": "New features and bug fixes.",
+                    "minOSVersion": "12.0"
+                },
+                {
+                    "version": "1.0",
+                    "date": "2022-03-16T07:00:00-08:00",
+                    "size": 10000000,
+                    "downloadURL": "https://example.com/myapp_v1.0.ipa",
+                    "localizedDescription": "Initial release."
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.siri"
+                ],
+            }
+        },
+        
+    ],
+    "news": [
+        {
+            "title": "New Feature Announcement",
+            "identifier": "new_feature",
+            "caption": "Introducing a new feature in AltStore!",
+            "date": "2023-03-15",
+            "tintColor": "#5CA399",
+            "imageURL": "https://example.com/new_feature_image.png",
+            "notify": true,
+            "url": "https://example.com/new_feature_details"
+        },
+        {
+            "title": "App Update Available",
+            "identifier": "app_update",
+            "caption": "An update is available for My Example App.",
+            "date": "2023-03-10T10:00:00-07:00",
+            "tintColor": "#3660A2",
+            "imageURL": "https://example.com/app_update_image.png",
+            "notify": false,
+            "appID": "com.example.myapp"
+        }
+    ]
+}
